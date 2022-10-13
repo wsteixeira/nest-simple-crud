@@ -11,7 +11,7 @@ import { UsersModule } from './users/users.module';
       type: 'sqlite',
       database: './src/database/db.sqlite',
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
     UsersModule,
   ],
